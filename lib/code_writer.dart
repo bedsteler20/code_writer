@@ -1,21 +1,23 @@
 library code_writer;
 
-export 'src/core/context.dart';
-export 'src/core/code.dart';
-export 'src/core/group.dart';
-export 'src/core/text_element.dart';
-export 'src/core/code_builder.dart';
+export 'code_writer.dart';
+export 'src/call.dart';
+export 'src/class.dart';
+export 'src/comment.dart';
 export 'src/core/blank.dart';
 export 'src/core/body.dart';
-
-export 'src/type_of.dart';
-export 'src/parameter.dart';
-export 'src/identifier.dart';
+export 'src/core/code.dart';
+export 'src/core/code_builder.dart';
+export 'src/core/context.dart';
+export 'src/core/group.dart';
+export 'src/core/text_element.dart';
+export 'src/enum.dart';
 export 'src/func.dart';
 export 'src/generic.dart';
+export 'src/identifier.dart';
 export 'src/import.dart';
-export 'src/call.dart';
-export 'src/variable.dart';
-export 'src/class.dart';
 export 'src/keywords.dart';
-export 'src/enum.dart';
+export 'src/parameter.dart';
+export 'src/type_def.dart';
+export 'src/type_of.dart';
+export 'src/variable.dart';
